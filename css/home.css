@@ -1,0 +1,84 @@
+#reviewslide
+{
+  width: 100%;
+}
+
+#reviewslide h1
+{
+  text-align: center;
+  color: #043991;
+  font-family: 'Rouge Script', cursive;
+  font-weight: bold;
+  background-color: black;
+  margin-bottom: 0px;
+}
+
+#latestcars
+{
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+#latestcars h1
+{
+  text-align: center;
+  color: #043991;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: 'Eczar', serif;
+}
+
+#latestcars hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#s1
+{
+  background-image:  url(sb.jpg);
+  width:100%;
+  height: 150px;
+}
+
+#s1 p
+
+{
+  color:white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px
+}
+
+
+.mySlides {display:none;
+}
+
+.mySlide {display:none;}
+
+
+
+
+.w3-tag, .fa {cursor:pointer}
+
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+
+#mainslider img
+
+{
+
+ width:100%;
+ height:650px;
+ position: absolute;
+ z-index: -1; left: 0px;
+  top: 5px;
+}
+.mainedge
+{color: white;
+font-family: 'Rouge Script', cursive;
+text-align: center;
+font-size:100px;
+font-weight: bold;
+padding-top: 70px;}
