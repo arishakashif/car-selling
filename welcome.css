@@ -1,0 +1,161 @@
+body{
+
+  background: url(INNOVATION_MULTIBEAM_LED_bringt_Licht_ins_Dunkel_01-1230x740.jpg);
+}
+
+
+
+    #Welcome{
+      font-size: 68px;
+      color: white;
+
+      font-family: Playfair Display;
+
+    }
+
+     #Main{
+            color: white;
+      font-family: Rouge Script;
+    }
+
+
+/*SEARCHBOX*/
+
+select {
+    border: 0 none;
+    color: white;
+    background: #1f2021;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: 378px;
+    *width: 350px;
+    *background: #1f2021;
+}
+
+
+.custom-select{
+    color:white;
+    overflow: hidden;
+    width: 350px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border-radius: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 11px #330033;
+    background: url("auto-automobile-automotive-445399.jpg") no-repeat scroll 319px 5px #1f2021 ;
+}
+
+#menu{
+  background: url("Buy-a-new-or-used-car.jpg");
+  background-size: cover;
+  margin: 5px auto;
+  height: 400px;
+  width: 400px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: gray;
+}
+.button{
+  border-radius: 12px;
+background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+/*SLIDER*/
+
+
+.slider {
+  max-width: 950px;
+  height: 400px;
+  margin: 5px auto;
+  
+  position: relative;
+
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url(https://ucl.suzuki.co.uk/static/images/unity/suzukiucl/new/models/celerio.png)no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+
+} 
+.slide2 {
+  background: url(https://www.elmalekcars.com.eg/blog/wp-content/uploads/2017/01/brocher-car.png)no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background: url(a.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+.slide4 {
+    background: url(a.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade4 8s infinite;
+-webkit-animation:fade4 8s infinite;
+}
+.slide5 {
+    background: url(a.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade5 8s infinite;
+-webkit-animation:fade5 8s infinite;
+}
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+@keyframes fade4
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+@keyframes fade5
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
