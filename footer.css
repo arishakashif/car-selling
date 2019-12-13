@@ -1,0 +1,188 @@
+.footer
+{
+  float: left;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+ol
+{
+  list-style-type: none;
+}
+
+ol li
+{
+  border-bottom: 1px solid #808289;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+#hours  span 
+{
+  
+  float:right;
+}
+
+#hours .mainh .ourhour
+{
+  color:#043991;font-weight: bold;float: left;
+}
+
+#loc h1
+{
+  
+    text-align: center;
+    word-spacing: 30px;
+    font-weight:  bold;
+    font-family: 'Eczar', serif;
+}
+
+#links
+{
+  padding-left: 50px;
+}
+
+
+
+#links ol a
+{
+  color:white;
+}
+
+
+#links ol a:hover
+{
+  color:gray;
+  text-decoration: none
+}
+
+#links .lastlink
+{
+  border-bottom:none ;
+  
+}
+
+#links ol  .mainh
+{
+  border-bottom:none;
+  font-size:40px;
+  font-family: 'Rouge Script', cursive;
+  padding: 0px;
+  margin-top: -20px;
+  
+}
+
+#hours
+{
+ 
+ padding-left: 100px;
+
+}
+
+#hours  .isclosed
+{
+  border-bottom:none ;
+}
+
+
+#hours ol  .mainh
+{
+  border-bottom:none;
+  font-size:40px;
+  font-family: 'Rouge Script', cursive;
+  padding: 0px;
+  
+}
+
+
+.mainh span
+{
+  padding: 0px;
+}
+
+#add
+{
+ 
+ padding-left: 130px;
+
+}
+
+
+#add span
+{  padding-left: 0px;
+   color:#043991;
+}
+
+.address
+{
+  font-family: 'Rouge Script', cursive;
+    font-size:40px;
+    padding: 0px;
+
+
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+#followlinks
+{
+ text-align: center;
+}
+
+#followlinks a
+{
+  margin-left:  20px;
+}
+
+#follow p
+{
+   font-size: 40px;
+  text-align: center;
+   color: #808289;
+   
+   font-family: 'Rouge Script', cursive;
+  
+}
+
+#follow hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px #043991;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-snapchat {
+    background: yellow;
+    color: white;
+}
+
+.fa-instagram {
+    background: #c10fa4;
+    color: white;
+}
+
+.fa-google {
+    background: #c4290d;
+    color: white;
+}
+
+
+
